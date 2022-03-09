@@ -1,0 +1,21 @@
+/*General*/
+body{
+    margin: 0mm;
+    padding: 0mm;
+    border: 0mm;
+    color:white;
+    background-color: black;
+}
+hr{
+    color:silver;
+}
+/*Navbar*/
+.navbar{
+    background-color: transparent;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbarimg {
+    height:1.5rem;
+}
