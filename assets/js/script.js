@@ -1,5 +1,13 @@
 /*Aseguararse que todo funcione*/
 $(document).ready(function(){
+    /*scroll*/
+    $(a).click(function(){
+        var gato=this.hash()
+        $("http, body").animate({
+            scrollTop:$(gato).offset().top-50
+        },
+        1000)
+        });
     /*Hablitar tooltip*/
     $('[data-bs-toggle="tooltip"]').tooltip();
     /*Toggle Cards*/
