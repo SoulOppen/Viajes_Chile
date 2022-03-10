@@ -26,13 +26,18 @@ hr{
 .navbarimg {
     height:1.5rem;
 }
-/*Destacado*/
-.img_sz{
-    height: 25vh;
+/* Carrusel*/
+.img_crl{
+    max-height:17cm;
 }
+*Destacado*/
 #SDestacado h5{
-    color:dimgray;
+    color:grey;
 }
 #SDestacado p{
-    color:dimgray;
+    color:grey;
+}
+.img-sz{
+    width: 100%;
+    height: 5cm;
 }
