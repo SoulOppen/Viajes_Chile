@@ -12,6 +12,9 @@ $(document).ready(function(){
     $('.tg3').click(function(){
       $('.tgsh3').toggle();
     });
+    $('.tg4').click(function(){
+        $('.tgsh4').toggle();
+      });
 });
 /*Hablitar modal*/
 $('#myModal').on('shown.bs.modal', function () {
