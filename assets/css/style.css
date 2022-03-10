@@ -1,20 +1,39 @@
 /*General*/
+:root{
+    --cl_prin:lightgreen;
+    --cl-S2:whitesmoke;
+    --cl-S3:silver;
+    --cl-s4:grey;
+    --fondo:black;
+    --fondo2:lightblue;
+    --FLetra:'Roboto'    
+}
 body{
     margin: 0mm;
     padding: 0mm;
     border: 0mm;
-    color:lightgreen;
-    background-color: black;
+    color:var(--cl_prin);
+    background-color:var(--fondo);
+    font-family: var(--FLetra),sans-serif;
+    font-weight: 300;
 }
 footer{
-    color:whitesmoke;
-    background-color: lightblue;
+    color:var(--cl-S2);
+    background-color: var(--fondo2);
+    font-weight: 500;
 }    
+h2{
+    font-weight: 500;
+}
+h5{
+    color:var(--cl-s4);
+    font-weight: 500;
+}
 hr{
-    color:silver;
+    color:var(--cl-S3);
 }
 .celeste{
-    background-color: lightblue;
+    background-color: var(--fondo2);
 }
 /*Navbar*/
 .navbar{
@@ -28,14 +47,11 @@ hr{
 }
 /* Carrusel*/
 .img_crl{
-    max-height:17cm;
+    max-height:18cm;
 }
-*Destacado*/
-#SDestacado h5{
-    color:grey;
-}
+/*Destacado*/
 #SDestacado p{
-    color:grey;
+    color:var(--cl-s4);
 }
 .img-sz{
     width: 100%;
