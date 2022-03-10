@@ -3,11 +3,18 @@ body{
     margin: 0mm;
     padding: 0mm;
     border: 0mm;
-    color:white;
+    color:lightgreen;
     background-color: black;
 }
+footer{
+    color:whitesmoke;
+    background-color: lightblue;
+}    
 hr{
     color:silver;
+}
+.celeste{
+    background-color: lightblue;
 }
 /*Navbar*/
 .navbar{
@@ -18,4 +25,14 @@ hr{
 }
 .navbarimg {
     height:1.5rem;
+}
+/*Destacado*/
+.img_sz{
+    height: 25vh;
+}
+#SDestacado h5{
+    color:dimgray;
+}
+#SDestacado p{
+    color:dimgray;
 }
