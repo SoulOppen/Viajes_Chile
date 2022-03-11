@@ -1,16 +1,16 @@
-/*Aseguararse que todo funcione*/
 $(document).ready(function(){
-    /*scroll*/
-    $(a).click(function(){
-        var gato=this.hash()
-        $("http, body").animate({
-            scrollTop:$(gato).offset().top-50
-        },
-        1000)
-        });
-    /*Hablitar tooltip*/
-    $('[data-bs-toggle="tooltip"]').tooltip();
-    /*Toggle Cards*/
+/*Scroll*/
+$("a").click(function(){
+  var roll=this.hash;
+  $('html, body').animate({
+      scrollTop: $(roll).offset().top
+    }, 850, function(){
+      window.location.hash = roll;
+    });
+  });
+  /*Hablitar tooltip*/
+$('[data-bs-toggle="tooltip"]').tooltip();
+/*Toggle Cards*/
     $('.tg1').click(function(){
       $('.tgsh1').toggle();
     });
@@ -25,6 +25,6 @@ $(document).ready(function(){
       });
 });
 /*Hablitar modal*/
-$('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-  });
+    $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+    });
